@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+
+.menu-container{
+    background-color: rgb(81, 76, 76);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menus{
+    display: flex;
+    
+}
+.item{
+    margin-right: 10px;
+}
+
+.item:hover{
+    color: blue;
+    
+}
+.logo-class{
+    width: 120px;
+}
+
+.girl-touch{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around ;
+    height: 100vh;
+    align-items: center;
+    background-image: url('./images/background.png'),linear-gradient(45deg,#888, #000);
+    
+}
+
+.title{
+    font-size: 55px;
+    font-weight:bold;
+    color: white;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: rgb(0, 255, 21);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    flex-direction: row-reverse;
+}
+
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px #888;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    
+}
+.box-title{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/background.png),linear-gradient(45deg,#888,#000);
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 70px;
+}
+
+h2{
+    padding: 10px;
+
+}
+
+p{
+    padding: 10px;
+    
+}
